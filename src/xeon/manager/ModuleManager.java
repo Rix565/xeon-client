@@ -14,5 +14,6 @@ public class ModuleManager {
 	
 	public ModuleManager() {
 		this.modules.add(new Sprint());
+		this.modules.add(new NoFall());
 	}
 }
