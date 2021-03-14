@@ -9,6 +9,7 @@ public class ValueManager {
 	private ArrayList<Value> values = new ArrayList<Value>();
 	
 	public ValueManager() {
+		this.values.add(new Value(Type.enableDiscordRP, true));
 		this.values.add(new Value(Type.prefixCmd, "xeon."));
 	}
 	

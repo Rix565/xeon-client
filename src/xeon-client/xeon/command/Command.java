@@ -1,5 +1,7 @@
 package xeon.command;
 
+
+import java.io.IOException;
 import xeon.utils.Utils;
 
 public class Command {
@@ -60,5 +62,5 @@ public class Command {
 		this.type = type;
 	}
 	
-	public void onCommand(String[] args){}
+	public void onCommand(String[] args) throws IOException {}
 }

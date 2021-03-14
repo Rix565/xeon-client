@@ -30,4 +30,7 @@ public class Value {
 	public Float getValueAsFloat() {
 		return (Float) this.value;
 	}
+	public Boolean getValueAsBoolean() {
+		return (Boolean) this.value;
+	}
 }

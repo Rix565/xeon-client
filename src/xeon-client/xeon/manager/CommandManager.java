@@ -11,6 +11,7 @@ public class CommandManager {
 	public CommandManager() {
 		this.commands.add(new Help());
 		this.commands.add(new Prefix());
+		this.commands.add(new EnableDiscordRP());
 	}
 
 	public ArrayList<Command> getCommands() {
